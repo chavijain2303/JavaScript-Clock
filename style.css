@@ -1,0 +1,117 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #989191;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.jumbotron {
+    background-color: #ffffff;
+    border-radius: 15px;
+    
+    box-shadow: 0 10px 20px rgba(92, 91, 91, 0.15);
+    padding: 88px;
+}
+
+.clock {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #ddd;
+    border-radius: 15px;
+    padding: 20px;
+    background-color: #f1f1f1;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.clock-face {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    border: 8px solid #4a4a4a;
+    border-radius: 50%;
+    background-color: #f0f0f0;
+    margin-right: 20px;
+}
+
+.hand {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform-origin: bottom;
+    transform: translateX(-50%);
+}
+
+.hour {
+    width: 4px;
+    height: 25px;
+    background-color: #333;
+}
+
+.minute {
+    width: 4px;
+    height: 35px;
+    background-color: #666;
+}
+
+.second {
+    width: 2px;
+    height: 40px;
+    background-color: #e74c3c;
+}
+
+.time-display {
+    text-align: left;
+}
+
+.date {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.time {
+    font-size: 2em;
+    font-weight: bold;
+    color: #000;
+}
+
+.navbar {
+    background-color: #234d77;
+
+}
+
+.navbar-brand {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    font-size: 1.5rem;
+    padding-left: 25px;
+}
+
+.navbar-brand, .nav-link, .navbar-toggler-icon {
+    color: #252020 !important;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+}
+
+.card-body {
+    background-color: #f8f9fa;
+}
+
+.collapse {
+    margin-top: 10px;
+}
